@@ -29,7 +29,7 @@ import {registerLoaders} from '@loaders.gl/core';
 import {OrbitView} from '@deck.gl/core';
 
 const INITIAL_VIEW_STATE = {
-    target: [70, 70, 70],
+    target: [0, 0, 0],
     rotationX: 0,
     rotationOrbit: 0,
     orbitAxis: 'Y',
